@@ -2,7 +2,7 @@ import csv
 import os
 from collections import defaultdict
 
-REFERENCE_CONFIG = "VI2+VI4"
+REFERENCE_CONFIG = "VI1+VI4"
 
 def compute_gaps(input_csv, output_csv, reference_config=REFERENCE_CONFIG):
     by_instance = defaultdict(lambda: {"base": [], "heuristics": []})
